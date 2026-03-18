@@ -8,7 +8,6 @@
   color: white;
   position: relative;
   border-radius: 20px;
-  text-decoration: none;
  }
 
  nav ul 
@@ -53,7 +52,12 @@ header img
 
 body 
 {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('../Images/atlasTraining.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 h1, h2, h3, nav 
